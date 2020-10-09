@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+                 
+            ]
           },
           "configurations": {
             "production": {
@@ -88,7 +92,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           }
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "online-course-reg"
+    }
+  },
+  "defaultProject": "online-course-reg",
+  "cli": {
+    "analytics": "2f7359d9-2945-4486-8a96-8195a4e8abf1"
+  }
 }
